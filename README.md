@@ -4,8 +4,8 @@ DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 
 Project Team Members: 
 - Nathan Tsai, nhtsai@ucsd.edu
-- Firstname Lastname2, name2@ucsd.edu
-- Firstname Lastname3, name3@ucsd.edu
+- Hanbyul Ryu, h9ryu@ucsd.edu
+- Joseph Del Val, jdelval@ucsd.edu
 - Firstname Lastname4, name4@ucsd.edu
 - Firstname Lastname5, name5@ucsd.edu
 
