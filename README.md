@@ -6,7 +6,7 @@ Project Team Members:
 - Nathan Tsai, nhtsai@ucsd.edu
 - Hanbyul Ryu, h9ryu@ucsd.edu
 - Joseph Del Val, jdelval@ucsd.edu
-- Firstname Lastname4, name4@ucsd.edu
+- Jacob Benson, jtbenson@ucsd.edu
 - Firstname Lastname5, name5@ucsd.edu
 
 ## Abstract
