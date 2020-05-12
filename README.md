@@ -86,7 +86,14 @@ This section will contain links to documentation of your results. This can inclu
 <a href="./results/meanfeatures.png"><img src="./results/meanfeatures.png" alt="Mean Features by Genre Bar Plot" width="800"/></a>
 <p>The bar plot shows the mean of certain <a href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/">Spotify features</a> for each genre. We can see that some genres have larger values of a feature on average, which will be good distinctions when training the genre classifier. For example, we can see that hiphop music is higher in 'speechiness' and 'danceability', jazz and classical music are higher in 'acousticness' and 'instrumentalness', and rock and punk music are higher in 'energy' and 'liveness'.</p>
 
+<br/>
+<br/>
+
 <table>
+    <tr>
+        <th>Correlation Matrix</th>
+        <th>Brief Description of Results</th>
+    </tr>
     <tr>
         <td><a href="./results/corr_rock.png"><img src="./results/corr_rock.png" alt="Rock Correlation Matrix" width="400"/></a></td>
         <td>Rock music has stronger correlations between 'danceability' and 'valence' and between 'loudness' and 'energy'. Rock music also has weak correlations between 'energy' and 'acousticness' and between 'danceability' and 'tempo'.</td>
@@ -130,7 +137,13 @@ Provide an account of individual members and their efforts/contributions to the 
 ## Technical Notes and Dependencies
 
 Any implementation details or notes we need to repeat your work. 
-- Additional libraries you are using for this project
+- Spotify API
+- SpotiPy Python Library
+- Librosa
+- Numpy
+- Pandas
+- Matplotlib
+- Scikit-learn
 - Does this code require other pip packages, software, etc?
 - Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
 
