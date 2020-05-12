@@ -62,7 +62,7 @@ Feature Extraction / Data Processing: [link](code/Data%20Processing.ipynb)
 Here, we made use of librosa in order to extract features from Spotify's 30 second sample audio, adding these features to the pandas dataframes from the last section, and saving them as separate CSV files.
 
 Exploratory Data Analysis: [link](EDA.ipynb)  
-Here, we used Pandas and Matplotlib to explore the data we had collected.
+Here, we combined the each of the genres' data into a [combined dataframe](./data/combined.csv) used Pandas and Matplotlib to explore the data we had collected. We explored how the main Spotify features differed for each genre to get a better sense of the data we were working with.
 
 This section will link to the various code for your project (stored within this repository). Your code should be executable on datahub, should we choose to replicate your result. This includes code for: 
 
