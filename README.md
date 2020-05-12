@@ -127,6 +127,34 @@ Focusing on the features provided for each track by Spotify, we took a look at h
 </table>
 
 
+<table>
+    <tr>
+        <th>Classification Pie Chart</th>
+        <th>Brief Description of Results</th>
+    </tr>
+    <tr>
+        <td><a href="./results/rock_preds.png"><img src="./results/rock_preds.png" alt="Rock Classification Pie Chart"/></a></td>
+        <td>TODO</td>
+    </tr>
+    <tr>
+        <td><a href="./results/classical_preds.png"><img src="./results/classical_preds.png" alt="Classical Classification Pie Chart"/></a></td>
+        <td>TODO</td>
+    </tr>
+    <tr>
+        <td><a href="./results/jazz_preds.png"><img src="./results/jazz_preds.png" alt="Jazz Classification Pie Chart"/></a></td>
+        <td>TODO</td>
+    </tr>
+    <tr>
+        <td><a href="./results/hiphop_preds.png"><img src="./results/hiphop_preds.png" alt="Hiphop Classification Pie Chart"/></a></td>
+        <td>TODO</td>
+    </tr>
+    <tr>
+        <td><a href="./results/punk_preds.png"><img src="./results/punk_preds.png" alt="Punk Classification Pie Chart"/></a></td>
+        <td>TODO</td>
+    </tr>
+</table>
+
+
 ## Discussion
 
 (30 points, three to five paragraphs)
