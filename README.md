@@ -76,13 +76,6 @@ Here, we trained a Naives Bayes classifier on the combined dataframe, eventually
 
 (30 points) 
 
-This section will contain links to documentation of your results. This can include figures, sound files, videos, bitmaps, as appropriate to your domain of analysis. Each result should include a brief textual description, and all should be listed below: 
-
-- image files (`.jpg`, `.png` or whatever else is appropriate)
-- audio files (`.wav`, `.mp3`)
-- written text as `.pdf`
-
-
 #### Exploratory Data Analysis
 
 Focusing on the features provided for each track by Spotify, we took a look at how the features differed by genre by using Matplotlib to create some simple visualizations.
