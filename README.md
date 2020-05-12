@@ -134,23 +134,23 @@ Focusing on the features provided for each track by Spotify, we took a look at h
     </tr>
     <tr>
         <td><a href="./results/rock_preds.png"><img src="./results/rock_preds.png" alt="Rock Classification Pie Chart"/></a></td>
-        <td>TODO</td>
+        <td>Here, we found that rock songs were actually classified relatively well by the classifier, only occasionally being mistaken for hip hop. This could be seen as quite counterintuitive, as rock music can be thought of as similar to many other genres, such as punk. Nevertheless, our classifier did quite a good job at identifier rock music.</td>
     </tr>
     <tr>
         <td><a href="./results/classical_preds.png"><img src="./results/classical_preds.png" alt="Classical Classification Pie Chart"/></a></td>
-        <td>TODO</td>
+        <td>Our classifier was, by far, most successful at recognizing classical music. One could then argue that Classical music is the most distinct among the genres we analyzed, in having features that are significantly characteristic of Classical-- and only Classical.</td>
     </tr>
     <tr>
         <td><a href="./results/jazz_preds.png"><img src="./results/jazz_preds.png" alt="Jazz Classification Pie Chart"/></a></td>
-        <td>TODO</td>
+        <td>Jazz suffered from the second-to-highest misclassification rate, and all of these misclassifications were with hip hop. This may also come at a surprise, given it can be seen as a particularly unique genre.</td>
     </tr>
     <tr>
         <td><a href="./results/hiphop_preds.png"><img src="./results/hiphop_preds.png" alt="Hiphop Classification Pie Chart"/></a></td>
-        <td>TODO</td>
+        <td>Hip hop had an ordinary rate of misclassification by our classifier, and with three other genres. This seems quite natural, as hip hop frequently samples from several other genres, and is a particularly heterogenous genre in music.</td>
     </tr>
     <tr>
         <td><a href="./results/punk_preds.png"><img src="./results/punk_preds.png" alt="Punk Classification Pie Chart"/></a></td>
-        <td>TODO</td>
+        <td>Our classifier was by far the worst at recognizing punk music. It was misclassified nearly half the time as either rock or hip hop. One takeaway from this may be that punk music is extremely similar to rock and hip hop music from the features we analyzed, and isn't a particularly distinct genre in and of itself.</td>
     </tr>
 </table>
 
