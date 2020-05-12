@@ -24,26 +24,31 @@ While much of our analysis will lie in the exploratory data analysis and classif
 Our cultural data source was a collection of playlists from the online music streaming service Spotify. The playlists in question were hand-crafted by Spotify in order to provide music to listeners who are seeking a specific genre.
 From Spotify's API, we acquired information about the tracks contained on 18 different playlists.
 
+#### Rock
 90s Rock Anthems: https://open.spotify.com/playlist/37i9dQZF1DX1rVvRgjX59F?si=GqFfPLIFTayeACySPYQ3Rg  
 80s Rock Anthems: https://open.spotify.com/playlist/37i9dQZF1DX1spT6G94GFC?si=8cA6oEgdS1ik6QY9o897ew  
 00s Rock Anthems: https://open.spotify.com/playlist/37i9dQZF1DX3oM43CtKnRV?si=umHsbMXiR-WdwATVR8LcVA  
 Rock Classics: https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U?si=uGZNvnwPQlWgrr6GhUXbHQ  
+#### Classical
 Classical Essentials: https://open.spotify.com/playlist/37i9dQZF1DWWEJlAGA9gs0?si=OqZq_LxFRIKruh9OoZa6SA  
 Classical Reading: https://open.spotify.com/playlist/37i9dQZF1DWYkztttC1w38?si=39fZeozBTiKwD3ZzBHXw7w  
 Classical Focus: https://open.spotify.com/playlist/37i9dQZF1DXd5zUwdn6lPb?si=GcoKHKNRROWY3jNk0Zz4rQ  
 I Love My West Coast Classics: https://open.spotify.com/playlist/37i9dQZF1DX9sQDbOMReFI?si=ICj1Y695Qjm1PrMKZNJ7PQ  
+#### Hiphop
 I Love My '90s Hip Hop: https://open.spotify.com/playlist/37i9dQZF1DX186v583rmzp?si=d-69VQS2S5We01fPAJy2VA  
 Get Turnt: https://open.spotify.com/playlist/37i9dQZF1DWY4xHQp97fN6?si=6eHGocEHSxisFo_WoeTDEQ  
+#### Punk
 Classic Punk: https://open.spotify.com/playlist/37i9dQZF1DX3LDIBRoaCDQ?si=G3vdAY5lRIuUTUHB7Osl1g  
 Punk Essentials: https://open.spotify.com/playlist/37i9dQZF1DXd6tJtr4qeot?si=-swGdu91S56d9rccIrOABA  
 New Punk Tracks: https://open.spotify.com/playlist/37i9dQZF1DX0KpeLFwA3tO?si=TwGXWilrSLKTrp-VoECasA  
+#### Jazz
 Jazz Classics: https://open.spotify.com/playlist/37i9dQZF1DXbITWG1ZJKYt?si=NVWfjjWQQ3uWmiGwjz5m_g  
 Jazz Classics Blue Note Edition: https://open.spotify.com/playlist/37i9dQZF1DWTR4ZOXTfd9K?si=NpJY-SqhRXax4m7QiNb1Ag  
 Late Night Jazz: https://open.spotify.com/playlist/37i9dQZF1DX4wta20PHgwo?si=-IQHHoQbSSuXRvJFR3HYgw  
 Smooth Jazz: https://open.spotify.com/playlist/37i9dQZF1DXdwTUxmGKrdN?si=FPV6wJ-BTneKUIO6tRT9Vw  
 Jazz X-Press: https://open.spotify.com/playlist/37i9dQZF1DX85XJl1mZAlp?si=OQYyVza3Qie0NCxJ7UNkKQ  
 
-The music contained within these playlists spans centuries, ranging from Cello Suits by Johann Sebastian Bach, to Hip Hop music composed a few days ago. And, of course, the artists who created these songs are equally as varied. The playlists themselves are quite frequently updated by Spotify, and thus very recent cultural artifacts.  
+The music contained within these playlists spans centuries, ranging from Cello Suites by Johann Sebastian Bach, to Hip Hop music composed a few days ago. And, of course, the artists who created these songs are equally as varied. The playlists themselves are quite frequently updated by Spotify, and thus very recent cultural artifacts.  
 As for the matter of whether or not it is a digital native, this too depends on which song is in question. Many of the classical and jazz pieces may be recordings of a recent performance of the song, whereas many of the modern tracks could possibly be digital releases from the beginning. 
 It is from the heterogeny of this dataset that we seek to find underlying patterns and different characteristics of each of these genres. In finding these patters, we will eventually be able to classify one from the other, and from this find how near-- or far-- some of these genres are from one another.
 
