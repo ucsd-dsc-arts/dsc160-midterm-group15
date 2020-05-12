@@ -69,8 +69,8 @@ Here, we made use of librosa in order to extract features from Spotify's 30 seco
 Exploratory Data Analysis: [link](code/EDA.ipynb)  
 Here, we combined the each of the genres' data into a [combined dataframe](./data/combined.csv) used Pandas and Matplotlib to explore the data we had collected. We explored how the main Spotify features differed for each genre to get a better sense of the data we were working with.
 
-Classification: [link](code/Classification.ipynb)
-Here, we trained a Naives Bayes classifier on the combined dataframe, eventually achieving an accuracy of 0.773333. Following this, we used Matplotlib to create charts detailing the predictions of the classifier.
+Classification / Results Generation: [link](code/Classification.ipynb)  
+Here, we trained a Naives Bayes classifier on the combined dataframe, eventually achieving an accuracy of 0.773333. Following this, we used Matplotlib to create charts of our results detailing the predictions of the classifier.
 
 ## Results
 
@@ -180,7 +180,8 @@ Lastly, at one point we created a .pikl file in order to transfer our data. This
 
 ## Reference
 
-Max, Tingle. Getting Started with Spotify’s API & Spotipy https://medium.com/@maxtingle/getting-started-with-spotifys-api-spotipy-197c3dc6353b
-Spotify API documentation
+Max, Tingle. Getting Started with Spotify’s API & Spotipy  
+https://medium.com/@maxtingle/getting-started-with-spotifys-api-spotipy-197c3dc6353b  
+Spotify API documentation  
 https://developer.spotify.com/documentation/
 
