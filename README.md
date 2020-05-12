@@ -126,6 +126,9 @@ Focusing on the features provided for each track by Spotify, we took a look at h
     </tr>
 </table>
 
+Following this, we trained a Naive Bayes classifier on this data in an effort to predict the genre. The classifier had an overall accuracy of 0.773333.
+
+The results of the classifier are as follows.
 
 <table>
     <tr>
