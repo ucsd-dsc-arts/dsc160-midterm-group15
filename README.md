@@ -1,4 +1,4 @@
-# Project Title
+# Success Rate of Genre Classification by Genre
 
 DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 
@@ -160,7 +160,10 @@ Ideally we’d like to expand the range of genres being classified to more than 
 
 ## Team Roles
 
-Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
+Joseph: abstract, data scraping and processing, classification, and discussion
+Nathan: abstract, EDA, and discussion
+Jacob: abstract, classification and discussion
+Hanbyul: abstract and discussion
 
 ## Technical Notes and Dependencies
 
