@@ -149,14 +149,14 @@ The results of the classifier are as follows.
 
 (30 points, three to five paragraphs)
 
-The first paragraph should be a short summary describing your results.
+After training a Naive Bayes classifier on the Spotify features alone to train a genre classifier, we saw that the accuracy score was .69. By adding statistics derived from the MFCC audio features from each song's 30-second preview, our Naive Bayes genre classifier significantly improved its score by 7.9%.
 
-The subsequent paragraphs could address questions including:
-- Why is this culturally relevant?
-- How does your computational approach differ from the traditional art historical, musicological, manuel/subjective approach to analyzing your cultural subject? 
-- How do you think the original artists/musicians would respond to this type of analysis? Would it change/inform their practice in some way?
-- How do your results relate to broader social, cultural, economic political, etc., issues? 
-- In what future directions could you expand this work?
+Music is an integral part of life for many people around the world, contributing to various aspects, such as movies and tv shows. The way music is classified into genres itself is a cultural concept. By knowing the genre of a particular song, the listener is able to assume certain characteristics about it leading to whether they would like a song that they have not listened to yet. However, when it comes to music genres, the classification has always been more or less subjective and symbolic rather than set with a solid distinguishing factor. The traditional approach to genre classification is usually manual or predetermined by the artist, and therefore subjective, relying mostly on human distinguishing methods to determine genre per song. Therefore, this differs from our computational approach, which focuses on classifying the genre based on set audio features and a sample audio file. By analyzing audio features such as acousticness, danceability, energy, etc., we hoped to provide a more objective way to classify genres. The inclusion of sample audio files in the process of this analysis allowed us to assimilate the traditional genre classification where the genre is determined by the way the song sounds.
+
+Musicians are constantly innovating and changing their styles of music, so genres are inherently difficult to classify. Many genres overlap and represent a subjective view of a song’s features. The original musicians would most likely not want their music to be confined into one genre and would understand that the music itself has more meaning than quantifiable ‘danceability’ or ‘liveness’ qualities for example. By seeing how their music can be classified, musicians would likely be inspired to explore other genres of music, seeking a greater understanding of what aspects of their music defines a genre. The idea of genre classification raises questions as to what objectively can be said to define a specific music genre and where one genre ends and another begins. 
+
+Ideally we’d like to expand the range of genres being classified to more than just the five we used. However, we ran into issues when trying to process an already copious amount of MFCC data, despite that data being collected on song previews. It became an issue of time and processing power, since the computers we were running our classifications on were taking so long to make use of the MFCC data. If possible we would have liked a broader range of MFCCs instead of having to settle for the mean and standard deviation. Another question we had while doing this project was how a purely Spotify features-based classifier would compare to using the full MFCCs of each song. This would give us an even better idea as to how helpful the provided features are in classifying genres. The simple mean and standard deviation we used already improved the classifier significantly— analyzing the full range of MFCC and Mel Frequency values may improve such a classifier considerably.
+
 
 ## Team Roles
 
