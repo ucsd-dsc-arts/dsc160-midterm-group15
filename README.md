@@ -160,10 +160,10 @@ Ideally we’d like to expand the range of genres being classified to more than 
 
 ## Team Roles
 
-Joseph: abstract, data scraping and processing, classification, and discussion
-Nathan: abstract, EDA, and discussion
-Jacob: abstract, classification and discussion
-Hanbyul: abstract and discussion
+Joseph: abstract, data scraping and processing, classification, and discussion  
+Nathan: abstract, EDA, and discussion  
+Jacob: abstract, classification and discussion  
+Hanbyul: abstract and discussion  
 
 ## Technical Notes and Dependencies
 
