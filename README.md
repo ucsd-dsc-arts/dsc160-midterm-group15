@@ -55,9 +55,14 @@ As for the other origin, we ourselves analyzed the 30 second samples provided to
 
 (20 points)
 
-The code written in order to acquire our data is available here: [link](code/Data%20Scraping.ipynb)
-The code written in order to process this data and extract features is available here: [link](code/Data%20Processing.ipynb)
-The code written in order to conduct exploratory data analysis is available here: [link](EDA.ipynb)
+The code written in order to acquire our data is available here: [link](code/Data%20Scraping.ipynb)  
+Here, we made use of Spotify's API in order to retrieve information about the tracks contained inside 18 different playlists. These were then put into pandas dataframes and saved as CSV files.
+
+The code written in order to process this data and extract features is available here: [link](code/Data%20Processing.ipynb)  
+Here, we made use of librosa in order to extract features from Spotify's 30 second sample audio, adding these features to the pandas dataframes from the last section, and saving them as separate CSV files.
+
+The code written in order to conduct exploratory data analysis is available here: [link](EDA.ipynb)  
+Here, we used Pandas and Matplotlib to explore the data we had collected.
 
 This section will link to the various code for your project (stored within this repository). Your code should be executable on datahub, should we choose to replicate your result. This includes code for: 
 
