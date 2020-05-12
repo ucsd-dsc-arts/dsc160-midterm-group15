@@ -88,6 +88,11 @@ This section will contain links to documentation of your results. This can inclu
 - audio files (`.wav`, `.mp3`)
 - written text as `.pdf`
 
+
+#### Exploratory Data Analysis
+
+Focusing on the features provided for each track by Spotify, we took a look at how the features differed by genre by using Matplotlib to create some simple visualizations.
+
 <a href="./results/meanfeatures.png"><img src="./results/meanfeatures.png" alt="Mean Features by Genre Bar Plot" width="800"/></a>
 <p>The bar plot shows the mean of certain <a href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/">Spotify features</a> for each genre. We can see that some genres have larger values of a feature on average, which will be good distinctions when training the genre classifier. For example, we can see that hiphop music is higher in 'speechiness' and 'danceability', jazz and classical music are higher in 'acousticness' and 'instrumentalness', and rock and punk music are higher in 'energy' and 'liveness'.</p>
 
@@ -100,23 +105,23 @@ This section will contain links to documentation of your results. This can inclu
         <th>Brief Description of Results</th>
     </tr>
     <tr>
-        <td><a href="./results/corr_rock.png"><img src="./results/corr_rock.png" alt="Rock Correlation Matrix" width="600"/></a></td>
+        <td><a href="./results/corr_rock.png"><img src="./results/corr_rock.png" alt="Rock Correlation Matrix" width="1200"/></a></td>
         <td>Rock music has stronger correlations between 'danceability' and 'valence' and between 'loudness' and 'energy'. Rock music also has weak correlations between 'energy' and 'acousticness' and between 'danceability' and 'tempo'.</td>
     </tr>
     <tr>
-        <td><a href="./results/corr_classical.png"><img src="./results/corr_classical.png" alt="Classical Correlation Matrix" width="600"/></a></td>
+        <td><a href="./results/corr_classical.png"><img src="./results/corr_classical.png" alt="Classical Correlation Matrix" width="1200"/></a></td>
         <td>Classical music has stronger correlations between 'valence' and 'danceability' and between 'energy' and 'loudness'. Classical music also has weak correlations between 'energy' and 'acousticness' and between 'acousticness' and 'loudness'.</td>
     </tr>
     <tr>
-        <td><a href="./results/corr_jazz.png"><img src="./results/corr_jazz.png" alt="Jazz Correlation Matrix" width="600"/></a></td>
+        <td><a href="./results/corr_jazz.png"><img src="./results/corr_jazz.png" alt="Jazz Correlation Matrix" width="1200"/></a></td>
         <td>Jazz music has stronger correlations between 'loudness' and 'energy' and between 'valence' and 'energy'. Jazz music also has weak correlations between 'acousticness' and 'energy' and between 'loudness' and 'acousticness'.</td>
     </tr>
     <tr>
-        <td><a href="./results/corr_hiphop.png"><img src="./results/corr_hiphop.png" alt="Hiphop Correlation Matrix" width="600"/></a></td>
+        <td><a href="./results/corr_hiphop.png"><img src="./results/corr_hiphop.png" alt="Hiphop Correlation Matrix" width="1200"/></a></td>
         <td>Hiphop music has stronger correlations between 'loudness' and 'energy'. Hiphop music also has weak correlations between 'speechiness' and 'danceability' and between 'tempo' and 'energy'.</td>
     </tr>
     <tr>
-        <td><a href="./results/corr_punk.png"><img src="./results/corr_punk.png" alt="Punk Correlation Matrix" width="600"/></a></td>
+        <td><a href="./results/corr_punk.png"><img src="./results/corr_punk.png" alt="Punk Correlation Matrix" width="1200"/></a></td>
         <td>Punk music has stronger correlations between 'loudness' and 'energy' and between 'speechiness' and 'energy'. Punk music also has weak correlations between 'danceability' and 'tempo' and between 'speechiness' and 'valence'.</td>
     </tr>
 </table>
