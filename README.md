@@ -66,17 +66,11 @@ Here, we made use of Spotify's API in order to retrieve information about the tr
 Feature Extraction / Data Processing: [link](code/Data%20Processing.ipynb)  
 Here, we made use of librosa in order to extract features from Spotify's 30 second sample audio, adding these features to the pandas dataframes from the last section, and saving them as separate CSV files.
 
-Exploratory Data Analysis: [link](EDA.ipynb)  
+Exploratory Data Analysis: [link](code/EDA.ipynb)  
 Here, we combined the each of the genres' data into a [combined dataframe](./data/combined.csv) used Pandas and Matplotlib to explore the data we had collected. We explored how the main Spotify features differed for each genre to get a better sense of the data we were working with.
 
-This section will link to the various code for your project (stored within this repository). Your code should be executable on datahub, should we choose to replicate your result. This includes code for: 
-
-- data acquisition/scraping
-- cleaning
-- analysis
-- generating results. 
-
-Link each of your notebooks or .py files within this section, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
+Classification: [link](code/Classification.ipynb)
+Here, we trained a Naives Bayes classifier on the combined dataframe, eventually achieving an accuracy of 0.773333. Following this, we used Matplotlib to create charts detailing the predictions of the classifier.
 
 ## Results
 
@@ -177,20 +171,16 @@ Provide an account of individual members and their efforts/contributions to the 
 
 ## Technical Notes and Dependencies
 
-Any implementation details or notes we need to repeat your work. 
-- Spotify API
-- SpotiPy Python Library
-- Librosa
-- Numpy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- Does this code require other pip packages, software, etc?
-- Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
+This work makes use of the packages Numpy, Pandas, Scikit-learn, Librosa, Spotipy, and Matplotlib, which must be available.
+
+Moreover, since we made use of the Spotify API, our API key was accessed via environmental variables in order to avoid pushing the key to github. This should be taken into account when attempting to replicate our work.
+
+Lastly, at one point we created a .pikl file in order to transfer our data. This aforementioned .pikl  file had an incomprehensible amount of data saved into arrays, and as a result the file was over two gigabytes large. This may prove inconvenient when trying to replicate our work, as we were not allowed to push this file to github.
+
 
 ## Reference
 
-References to any papers, techniques, repositories you used:
-- Papers
-- Repositories
-- Blog posts
+Max, Tingle. Getting Started with Spotify’s API & Spotipy https://medium.com/@maxtingle/getting-started-with-spotifys-api-spotipy-197c3dc6353b
+Spotify API documentation
+https://developer.spotify.com/documentation/
+
